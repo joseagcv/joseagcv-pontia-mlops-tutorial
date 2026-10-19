@@ -1,4 +1,5 @@
 import mlflow
+import os
 
 
 MLFLOW_URI = os.getenv("MLFLOW_URI","http://localhost:5001/") 
